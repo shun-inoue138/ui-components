@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .black {
+    background-color: black;
+  }
+  .r-t-triangle {
+    width: 0;
+    height: 0;
+    border-top: 30px solid #ea987e;
+    border-right: 30px solid #ea987e;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid transparent;
+  }
+  .l-b-triangle {
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #ea987e;
+    border-left: 30px solid #ea987e;
+  }
+}
