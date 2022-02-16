@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import Accordion from '../src/components/atoms/Accordion';
 import HeadingWithNumber from '../src/components/atoms/HeadingWithNumber';
 import ImageWithTriangleDecoration from '../src/components/atoms/ImageWithTriangleDecoration';
 import SpeechBubbleLikeHeading from '../src/components/atoms/SpeechBubbleLikeHeading';
@@ -15,6 +16,10 @@ const Home: NextPage = () => {
         <UnderLinedText>hogehoge</UnderLinedText>
         <ImageWithTriangleDecoration img="/ryan-klaus-TZ3ws9gIVrA-unsplash.jpg" />
       </p>
+      <Accordion
+        title="hogehogehogehoge"
+        body="hogehogehogehogheohgeogheohgoehgeo hgeohgoehgoehogheohgoehgoeh"
+      />
     </>
   );
 };
